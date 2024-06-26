@@ -1,1 +1,4 @@
 # SteamInstallHelper
+本项目没有任何技术含量有过其他语言开发经验的很快也能开发出来
+本项目依赖wget可执行文件
+由于本人Linux平台使用WattToolKit存在问题为避免出现问题暂不提供Linux的支持

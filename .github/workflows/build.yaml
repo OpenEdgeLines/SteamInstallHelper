@@ -1,0 +1,21 @@
+name: learn-github-actions
+run-name: build SteamInstallHelper
+on: push
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+      - uses: microsoft/setup-msbuild@v1.1
+      - name: Install CMake
+        uses: jwlawson/actions-setup-cmake@v1
+        with:
+          cmake-version: '3.22'
+      - run: mkdir build
+      - run: cmake -B build -DCMAKE_BUILD_TYPE=Release
+      - run: cmake --build . --config Release
+      - uses: actions/upload-artifact@v3
+        with:
+          name: Release
+          path: build/*.exe
