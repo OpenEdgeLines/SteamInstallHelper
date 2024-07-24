@@ -1,9 +1,2 @@
 # SteamInstallHelper
-±¾ÏîÄ¿Ã»ÓÐÈÎºÎ¼¼Êõº¬Á¿ÓÐ¹ýÆäËûÓïÑÔ¿ª·¢¾­ÑéµÄºÜ¿ìÒ²ÄÜ¿ª·¢³öÀ´
-±¾ÏîÄ¿Ê¹ÓÃInvoke-WebRequestÏÂÔØ°²×°³ÌÐò
-ÓÉÓÚ±¾ÈËLinuxÆ½Ì¨Ê¹ÓÃWattToolKit´æÔÚÎÊÌâÎª±ÜÃâ³öÏÖÎÊÌâÔÝ²»Ìá¹©LinuxµÄÖ§³Ö
-# ±àÒë
-ÒòÎªÖ»ÓÐÒ»¸öÔ´ÂëÎÄ¼þËùÒÔÖ±½ÓÓÃg++»îmsvc±àÒë¼´¿É
-## g++
-````
-g++ SteamInstallHelper.cpp -o SteamInstallHelper
+ç”¨AvaloniaUiå†™äº†ä¸ªç•Œé¢è€Œä¸”è€ƒè™‘åˆ°çŽ©å®¶å¹¶ä¸æ­¢æ¸¸æˆå¹³å°åŠ é€Ÿæ¸¸æˆä¹Ÿè¦åŠ é€Ÿæ‰€ä»¥æ¢æˆäº†UUåŠ é€Ÿå™¨ï¼ˆæ— å¹¿éšä¾¿æ‰¾çš„ï¼‰
