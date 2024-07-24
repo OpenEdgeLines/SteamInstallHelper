@@ -1,0 +1,13 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" Width="300" Height="100"
+        x:Class="SteamInstallHelper.MainWindow"
+        Title="Steam安装助手">
+    <StackPanel HorizontalAlignment="Center">
+        <TextBlock>Steam安装助手</TextBlock>
+        <Button Click="ButtonClicked">下载安装程序</Button>
+        <Button Click="StartInstaller">运行安装程序</Button>
+    </StackPanel>
+</Window>
